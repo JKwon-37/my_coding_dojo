@@ -1,0 +1,50 @@
+.row1, .row2, .row3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+}
+
+.row1 {
+    background-color:darkseagreen;
+}
+
+.row2 {
+    background-color: gray;
+}
+
+.row3 {
+    background-color: darkorange;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4 {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+.col {
+    background-color: burlywood;
+    flex: auto;
+}
+
+.col-1 {
+    background-color: crimson;
+    flex: 1;
+}
+
+.col-2 {
+    background-color: crimson;
+    flex: 2;
+}
+
+.col-3 {
+    background-color: aqua;
+    flex: 2;
+}
+
+.col-4 {
+    background-color: aqua;
+    flex: 3;
+}
