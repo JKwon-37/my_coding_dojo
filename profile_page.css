@@ -1,19 +1,22 @@
 * {
+    padding: 0px;
+    margin: 0px;
     font-family: 'roboto', sans-serif;
 }
 /* Navbar */
 .nav {
-    background-color:#333333;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     padding: 30px;
     text-decoration: none;
-
+    width: 100%;
 }
 
 .nav-title {
     color: white;
     font-weight: lighter;
+    font-size: 48pt;
     align-items: center;
     display: flex;
 }
@@ -23,7 +26,7 @@
     padding:0;
     margin:0;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
 }
 #nav-links a{
@@ -32,15 +35,14 @@
 }
 
 #nav-links{
-    width: 500px;
+    width: 1200px;
     height: 100px;
     color: rgb(126, 88, 88);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
-    font-size: large;
-    text-decoration: none;
+    font-size: 20pt;
 }
 
 .active {
@@ -50,15 +52,25 @@
 }
 
 .btn {
-    background-color: aquamarine;
+    width: 200px;
+    height: 50px;
+    font-size: 20pt;
+    align-items: center;
+    background-color: #12A3B8;
     color: white;
-    box-shadow: 5px 5px black;
-    border: 10x;
-    border-color: black;
+    border-style: none;
+    position: relative;
+    top: 25px;
+    right: 50px;
 }
 /* End Navbar */
 
 /* User Card */
+.user-card {
+    position: relative;
+    left: 300px;
+    margin: 20px;
+}
 .profile {
     width: 100px;
     height: 100px;
@@ -76,7 +88,7 @@
 }
 
 .top {
-    width: 900px;
+    width: 600px;
     height: 90px;
     background-color: #12A3B8;
     border-style: solid;
@@ -85,7 +97,7 @@
 }
 
 .bottom {
-    width: 900px;
+    width: 600px;
     height: 300px;
     background-color: white;
     border-style: solid;
@@ -131,35 +143,59 @@
 
 /* Education Card */
 .education-card {
-    width: 900px;
+    width: 600px;
     height: 300px;
     background-color: white;
     border-style: solid;
     border-color: #CCCCCC;
     border-width: 5px;
+    margin: 20px;
+    position: relative;
+    left: 300px;
 }
 
 .top-bar {
-    height: 45px;
+    height: 60px;
     background-color: #333333;
     color: white;
     display: flex;
     align-items: center;
 }
 
+.education-card .bottom-container {
+    padding: 20px;
+}
+
+.bottom-container h3 {
+    color: gray;
+    padding: 5px 0px 20px 0px;
+    font-style: italic;
+}
+
+.top-bar h3 {
+    padding-left: 20px;
+    font-size: 20pt;
+}
+/* End Education Card */
+
 /* Connection Requests */
 .connection-requests {
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
     background-color: white;
     border-style: solid;
     border-color: #CCCCCC;
     border-width: 5px;
+    margin: 20px;
+    position: relative;
+    left: 300px;
 }
 
 .friend-request {
+    width: 300px;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .profile-picture {
@@ -173,16 +209,29 @@
     width: 20px;
     height: 20px;
     color: white;
+    padding-left: 15px;
 }
+
+.check {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    padding-left: 5px 20px;
+}
+
+/* End Connection Requests */
 
 /* Your Connections */
 .your-connections {
-    width: 500px;
-    height: 315px;
+    width: 400px;
+    height: 350px;
     background-color: white;
     border-style: solid;
     border-color: #CCCCCC;
     border-width: 5px;
+    margin: 20px;
+    position: relative;
+    left: 300px;
 }
 
 .friend {
@@ -193,28 +242,44 @@
 .your-connections > .footer {
     border-style: solid;
     border-color: #CCCCCC;
-    border-width: 5px;
+    border-width: 5px 5px 0px 5px;
     position: relative;
     right: 4px;
     height: 40px;
     width: inherit;
 }
 
-/* Box1 */
+.check {
+    height: 20px;
+    width: 20px;
+}
 
+.close {
+    height: 20px;
+    width: 20px;
+}
+/* End Your Connections */
+
+/* Box 1 & Box 2 */
 .main {
-    height: 1000px;
+    height: 800px;
+    width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 .box1 {
-    background-color: white;
-    flex: 2;
-    justify-content: space-evenly;
+    flex: 1;
+    justify-content: flex-end;
+    width: 100%;
+    height: 500px;
+    margin: 20px;
 }
 
 .box2 {
-    background-color: white;
-    flex: 2;
-    justify-content: space-evenly;
+    flex: 1;
+    justify-content: flex-start;
+    height: 500px;
+    width: 100%;
+    margin: 20px;
 }
