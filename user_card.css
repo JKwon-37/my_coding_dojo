@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    right: 10px;
+    padding: 5px 20px;
+
+}
+
+.location img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+}
+
+.top {
+    width: 900px;
+    height: 90px;
+    background-color: #12A3B8;
+    border-style: solid;
+    border-color: #12A3B8;
+    border-width: 5px;
+}
+
+.bottom {
+    width: 900px;
+    height: 300px;
+    background-color: white;
+    border-style: solid;
+    border-color: #CCCCCC;
+    border-width: 5px;
+}
+
+.name {
+    padding: 5px 20px;
+}
+
+.location {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    position: relative;
+    right: 4px;
+    font-weight: 500;
+}
+
+.about {
+    padding-left: 20px;
+}
+
+.edit {
+    position: relative;
+    top: 4px;
+}
+
+.edit img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 4px;
+    padding-left: 20px;
+
+}
+
+.bottom-content {
+    position: relative;
+    top: 55px;
+}
