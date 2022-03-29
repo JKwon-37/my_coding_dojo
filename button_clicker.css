@@ -1,0 +1,153 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Sansita', sans-serif;
+}
+
+.everything {
+    margin: 0px 200px;
+}
+/*  Navbar  */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightgray;
+    height: 120px;
+    font-size: 28pt;
+    margin-bottom: 50px;
+}
+
+.search-bar {
+    height: 20px;
+    width: 450px;
+    font-size: 18pt;
+    color: #AEAEAE;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+.btn {
+    height: 50px;
+    width: 100px;
+    font-size: 18pt;
+    background-color: #2B77E4;
+    color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    box-shadow: 5px 5px black;
+}
+/* End Navbar */
+
+/* Containers */
+.container1, .container2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex: 1;
+}
+
+/* End Containers */
+
+/* Word Definition */
+.word-definition {
+    width: 700px;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    margin-bottom: 50px;
+}
+
+.box1 {
+    text-align: center;
+    flex: 1;
+}
+
+.box2 {
+    flex: 2;
+    margin: 10px;
+}
+
+.box2 p {
+    font-size: 20pt;
+    inline-size: 300px;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.box1 h2 {
+    font-size: 40pt;
+    margin-bottom: 8;
+}
+
+.noun, .plural {
+    font-size: 16pt;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.like-btn {
+    height: 50px;
+    width: 150px;
+    font-size: 16pt;
+    background-color: #FFD866;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    box-shadow: 5px 5px black;
+    margin-top: 20px;
+}
+/* End Word Definition */
+
+/* Add Definition */
+.add-definition {
+    width: 400px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+.empty {
+    width: 400px;
+    height: 220px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+}
+
+.box3 {
+    overflow-wrap: break-word;
+    inline-size: 240px;
+}
+
+.define {
+    font-size: 28pt;
+}
+
+.add-btn {
+    width: 240px;
+    height: 60px;
+    font-size: 16pt;
+    background-color: #92C57C;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    box-shadow: 5px 5px black;
+    margin-top: 20px;
+}
+
+/* End Add Definition */
+
+
+
